@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:beer="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    tools:context="xyz.pongsakorn.fcukingbeer.MainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:orderInCategory="100"
+        beer:showAsAction="always"
+        android:icon="@mipmap/ic_about"
+        android:title="@string/action_abount" />
+</menu>
